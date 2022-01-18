@@ -7,7 +7,7 @@ class StringFunctions {
      * capitalize('HELLO WORLD') // 'Hello world'
      */
     capitalize(input) { 
-      return ; 
+      return input; 
     }
     /**
      * Returns a reversed string. Example: "abc" => "cba"
@@ -17,7 +17,7 @@ class StringFunctions {
      * reverse('abc') // 'cba'
      */
     reverse(input) { 
-      return ;
+      return input;
     }
     /**
      * Returns an array of the words in a string
@@ -27,6 +27,6 @@ class StringFunctions {
      * words('hello world') // ['hello', 'world']
      */
     split(input) { 
-      return;
+      return [input];
     }
 }
